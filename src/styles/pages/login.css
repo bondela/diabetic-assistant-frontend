@@ -1,0 +1,68 @@
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    width: 40vh;
+    height: 30vh;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.login-remember {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-right: 80px;
+
+}
+
+.login-checkbox {
+    color: white;
+}
+
+.login-checkbox-text {
+    margin-left: 5px;
+}
+
+.submit-button {
+    position: absolute;
+    bottom: 2vh;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    color: black;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.submit-button:hover {
+    transform: translateX(-50%) scale(1.1);
+}
+
+
+.form-signin input[type="email"] {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
